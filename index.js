@@ -2,7 +2,7 @@
 
 var recipes = {}
  function updateDriverWithKeyAndValue(driver, key, value) {
-  return Object.assign({}, object, {[key]: value})
+  return Driver.assign({}, object, {[key]: value})
 }
  function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
